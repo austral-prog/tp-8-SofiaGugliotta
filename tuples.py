@@ -11,7 +11,7 @@ def convert_coordinate(coordinate):
 
 def create_record(azara_record, rui_record):
     a, b = azara_record
-    c, d = rui_record
+    c, d, e = rui_record
     numero = b[0]
     letra = b[1]
     ca = (numero, letra)
